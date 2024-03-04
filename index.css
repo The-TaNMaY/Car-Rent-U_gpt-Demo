@@ -46,7 +46,11 @@
             margin-top: 20px;
         }
         .car {
-            background-color: #fff;
+            background-color: transparent;
+            text-align: center;
+            color: #060847;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            transition: all 0.3s ease;
             border: 1px solid #ddd;
             padding: 20px;
             border-radius: 5px;
