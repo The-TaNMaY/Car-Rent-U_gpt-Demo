@@ -78,4 +78,11 @@
             margin: 20px; 
             float: left;/* Adjust margin as needed */
           }
-          
+          .social-media-icon {
+            width: 60px; /* Adjust size as needed */
+            height: auto;
+        }
+        .social-medi-icon{
+            width: 80px;
+            height: 50px;
+        }
