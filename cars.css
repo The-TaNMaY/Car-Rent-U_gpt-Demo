@@ -60,3 +60,9 @@ h2 {
 .car-info p {
     line-height: 1.6;
 }
+.logo {
+    width: 200px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin: 20px; /* Adjust margin as needed */
+    float: left;
+  }
