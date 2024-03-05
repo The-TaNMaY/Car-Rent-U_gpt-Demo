@@ -65,7 +65,7 @@ textarea {
     height: 150px;
 }
 input[type="submit"] {
-    background-color: #333;
+    background-color: #135ecf;
     color: #fff;
     padding: 10px 20px;
     border: none;
@@ -74,7 +74,7 @@ input[type="submit"] {
     font-size: 16px;
 }
 input[type="submit"]:hover {
-    background-color: #118b8b;
+    background-color: #1ac0c0;
 }
 .logo {
     width: 200px; /* Adjust the width as needed */
