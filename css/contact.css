@@ -2,8 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    color: #f9f9f9;
-    background-image: url(/logcar.jpg);
+    color: #ccc;
+    background-image: url(/img/logcar.jpg);
             background-size: cover;
             background-repeat: no-repeat;
             background-position: center;
@@ -45,30 +45,37 @@ nav a:hover {
 h2 {
     margin-top: 0;
 }
-.car-details {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+form {
     margin-top: 20px;
 }
-.car-image {
-    text-align: center;
+label {
+    display: block;
+    margin-bottom: 5px;
 }
-.car-image img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
 }
-.car-info {
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
+textarea {
+    height: 150px;
 }
-.car-info h3 {
-    margin-top: 0;
+input[type="submit"] {
+    background-color: #135ecf;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
 }
-.car-info p {
-    line-height: 1.6;
+input[type="submit"]:hover {
+    background-color: #1ac0c0;
 }
 .logo {
     width: 200px; /* Adjust the width as needed */
